@@ -1,0 +1,32 @@
+.row.align-items-center {
+    padding-top: 30px;
+}
+.tabs-heading{
+    padding: 20px 20px 0px 20px;
+    height: 51px;
+    border: solid 1px gray;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #cae8fd;
+}
+.tabs-heading a{
+    display: inline-block;
+    padding: 0px 20px;
+    height: 30px;
+    line-height: 30px;
+    z-index: 1;
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.tabs-heading a.active{
+    height: 30px;
+    border: solid 1px gray;
+    border-bottom: none;
+    background-color: #FFF;
+}
+.tabs-content{
+    border: solid 1px gray;
+    border-top: none;
+    min-height: 200px;
+    padding: 10px;
+}
